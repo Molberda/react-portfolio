@@ -6,9 +6,9 @@ import Project from "./Components/Project";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <div className="row">
+    <section id="Landing">
+      <div className="container container__landing">
+        <div className="row row__landing">
           <div className="info__container">
             <Personal/>
             <Links/>
@@ -22,7 +22,7 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
