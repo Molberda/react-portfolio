@@ -1,4 +1,8 @@
 import "./App.css";
+import Footer from "./Components/Footer";
+import Links from "./Components/Links";
+import Personal from "./Components/Personal";
+import Project from "./Components/Project";
 
 function App() {
   return (
@@ -6,11 +10,16 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="info__container">
-            <div className="info__personal"></div>
-            <div className="info__links"></div>
-            <div className="info__footer"></div>
+            <Personal/>
+            <Links/>
+            <Footer/>
           </div>
-          <div className="projects__container"></div>
+          <div className="projects__group">
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+          </div>
         </div>
       </div>
     </div>
