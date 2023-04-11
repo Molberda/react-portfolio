@@ -1,33 +1,14 @@
 import "./App.css";
-import Footer from "./Items/Footer";
-import Links from "./Items/Links";
-import Personal from "./Items/Personal";
-import Project from "./Items/Project";
+import Nav from "./Components/Nav";
+import Showcase from "./Components/Showcase";
 
 function App() {
   return (
     <section id="Landing">
       <div className="container container__landing">
         <div className="row row__landing">
-          <div className="info__container">
-            <Personal/>
-            <Links/>
-            <Footer/>
-          </div>
-          <div className="projects__group">
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-          </div>
+          <Nav/>
+          <Showcase/>
         </div>
       </div>
     </section>
