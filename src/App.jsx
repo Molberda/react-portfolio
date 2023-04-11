@@ -1,8 +1,8 @@
 import "./App.css";
-import Footer from "./Components/Footer";
-import Links from "./Components/Links";
-import Personal from "./Components/Personal";
-import Project from "./Components/Project";
+import Footer from "./Items/Footer";
+import Links from "./Items/Links";
+import Personal from "./Items/Personal";
+import Project from "./Items/Project";
 
 function App() {
   return (
@@ -15,6 +15,14 @@ function App() {
             <Footer/>
           </div>
           <div className="projects__group">
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
+            <Project/>
             <Project/>
             <Project/>
             <Project/>
