@@ -86,8 +86,9 @@ figure {
 
 .projects__group {
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: space-evenly;
+  row-gap: 1em;
   flex-wrap: wrap;
   flex-grow: 1;
   margin-left: 1.5em;
@@ -95,8 +96,10 @@ figure {
 
 .project__container {
   display: flex;
-  max-width: 22%;
+  max-width: 30%;
   position: relative;
+  border-radius: 1em;
+  overflow: hidden;
 }
 
 .project__background {

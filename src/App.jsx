@@ -1,17 +1,15 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Nav from "./Components/Nav";
-import Showcase from "./Components/Showcase";
+
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <section id="Landing">
-      <div className="container container__landing">
-        <div className="row row__landing">
-          <Nav/>
-          <Showcase/>
-        </div>
-      </div>
-    </section>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing/>}/>
+      </Routes>
+    </Router>
   );
 }
 
