@@ -53,16 +53,22 @@ figure {
   padding: 1em 0;
 }
 
+.info__container{
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 2em black;
+}
+
 .info__container,
 .info__personal {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 10em;
 }
 
 .info__personal {
+  min-width: 10em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
 }
@@ -87,11 +93,11 @@ figure {
 .projects__group {
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
-  row-gap: 1em;
+  justify-content: flex-start;
+  gap: 1em;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin-left: 1.5em;
+  margin-left: 3em;
 }
 
 .project__container {
