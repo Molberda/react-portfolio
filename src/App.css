@@ -46,6 +46,15 @@ figure {
   display: flex;
 }
 
+.click{
+  transition: all 500ms ease;
+}
+
+.click:hover{
+  box-shadow: 0 0 1em black;
+  cursor: pointer;
+}
+
 /* Landing */
 
 #Landing {
@@ -91,7 +100,10 @@ figure {
 .link{
   padding: .2em .5em;
   background: none;
-  border: none
+  border: none;
+  border-radius: .5em;
+  font-size: .95em;
+  font-weight: 600;  
 }
 
 .info__footer {

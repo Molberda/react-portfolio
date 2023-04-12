@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ item }) => {
   return (
-    <div className="project__container">
+    <div className="project__container click">
       <figure className="project__wrapper">
         <img
           src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
