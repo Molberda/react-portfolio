@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = () => {
+const Project = ({ item }) => {
   return (
     <div className="project__container">
       <figure className="project__wrapper">
@@ -10,7 +10,7 @@ const Project = () => {
           className="project__img"
         />
         <span className="project__background">
-            <h1 className="project__title">title</h1>
+            <h1 className="project__title">{item.title}</h1>
         </span>
       </figure>
     </div>
