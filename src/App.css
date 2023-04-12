@@ -71,6 +71,7 @@ figure {
   border-radius: 1em;
   box-shadow: 0 0 2em black;
   min-height: 80vh;
+  gap: 2em;
 }
 
 .info__container,
