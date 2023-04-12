@@ -5,24 +5,19 @@ const Links = () => {
         <div className="info__links">
               <ul className="links__list">
                 <li className="links__item">
-                  <a href="" className="link">
-                    Link 1
-                  </a>
+                  <button className="link">
+                    About Me
+                  </button>
                 </li>
                 <li className="links__item">
-                  <a href="" className="link">
-                    Link 2
-                  </a>
+                  <button className="link">
+                    Dark Mode
+                  </button>
                 </li>
                 <li className="links__item">
-                  <a href="" className="link">
-                    Link 3
-                  </a>
-                </li>
-                <li className="links__item">
-                  <a href="" className="link">
-                    Link 4
-                  </a>
+                  <button className="link">
+                    Contact Me
+                  </button>
                 </li>
               </ul>
             </div>
