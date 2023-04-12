@@ -81,6 +81,19 @@ figure {
   margin-bottom: 0.25em;
 }
 
+.links__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5em;
+}
+
+.link{
+  padding: .2em .5em;
+  background: none;
+  border: none
+}
+
 .info__footer {
   margin-top: 1em;
 }
