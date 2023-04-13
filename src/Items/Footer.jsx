@@ -8,27 +8,27 @@ const Footer = () => {
       <ul className="footer__list">
         <li className="footer__item">
           <IconButton className="icon__btn">
-            <WhatsApp/>
+            <WhatsApp color="success"/>
           </IconButton>
         </li>
         <li className="footer__item">
           <IconButton className="icon__btn">
-            <Mail/>
+            <Mail className="mailbtn"/>
+          </IconButton>
+        </li>
+        <li className="footer__item gitbtn--hover">
+          <IconButton className="icon__btn ">
+            <GitHub className="gitbtn"/>
           </IconButton>
         </li>
         <li className="footer__item">
           <IconButton className="icon__btn">
-            <GitHub/>
+            <LinkedIn className="linkedbtn"/>
           </IconButton>
         </li>
         <li className="footer__item">
           <IconButton className="icon__btn">
-            <LinkedIn/>
-          </IconButton>
-        </li>
-        <li className="footer__item">
-          <IconButton className="icon__btn">
-            <PictureAsPdf/>
+            <PictureAsPdf className="pdfbtn"/>
           </IconButton>
         </li>
       </ul>
