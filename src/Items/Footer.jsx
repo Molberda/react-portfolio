@@ -1,4 +1,4 @@
-import { GitHub, Mail, WhatsApp } from "@mui/icons-material";
+import { GitHub, LinkedIn, Mail, PictureAsPdf, WhatsApp } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 
@@ -19,6 +19,16 @@ const Footer = () => {
         <li className="footer__item">
           <IconButton className="icon__btn">
             <GitHub/>
+          </IconButton>
+        </li>
+        <li className="footer__item">
+          <IconButton className="icon__btn">
+            <LinkedIn/>
+          </IconButton>
+        </li>
+        <li className="footer__item">
+          <IconButton className="icon__btn">
+            <PictureAsPdf/>
           </IconButton>
         </li>
       </ul>

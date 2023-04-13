@@ -8,10 +8,6 @@
   list-style: none;
 }
 
-#root {
-  background-color: aqua;
-}
-
 .container {
   height: 100%;
   width: 100%;
@@ -112,6 +108,7 @@ figure {
 
 .footer__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5em;
 }
 
