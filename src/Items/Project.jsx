@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React from "react";
 
 const Project = ({ item }) => {
@@ -10,7 +11,7 @@ const Project = ({ item }) => {
           className="project__img"
         />
         <span className="project__background">
-            <h1 className="project__title">{item.title}</h1>
+          <h1 className="project__title">{item.title}</h1>
         </span>
       </figure>
     </div>

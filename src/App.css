@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -107,7 +107,7 @@ figure {
   border: none;
   border-radius: .5em;
   font-size: .95em;
-  font-weight: 600;  
+  font-weight: 600; 
 }
 
 .footer__list {
@@ -154,4 +154,16 @@ figure {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.MuiButtonBase-root{
+  color: black !important;
+  padding: .4em .7em!important;
+  border-radius: .5em!important;
+  font-size: .95em!important;
+  font-weight: 600!important; 
+  text-transform: none !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  min-width: 0 !important;
 }

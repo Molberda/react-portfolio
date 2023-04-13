@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import React from 'react';
 
 const Links = () => {
@@ -15,10 +16,11 @@ const Links = () => {
                   </button>
                 </li>
                 <li className="links__item">
-                  <button className="link click">
+                  <Button size='small' className="link click">
                     Contact Me
-                  </button>
+                  </Button>
                 </li>
+                <Button size='small' className="link click" variant="text">Text</Button>
               </ul>
             </div>
     );
