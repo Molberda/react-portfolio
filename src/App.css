@@ -115,8 +115,28 @@ figure {
   border-radius: 4px;
 }
 
+.footer__list > .whabtn--hover:hover {
+  background-color: #07e42141;
+}
+
+.footer__list > .mailbtn--hover:hover {
+  background-color: #007acc48;
+}
+
 .footer__list > .gitbtn--hover:hover {
-  background-color: #792f9b27;;
+  background-color: #792f9b27;
+}
+
+.footer__list > .linkedbtn--hover:hover {
+  background-color: #0074b24f;
+}
+
+.footer__list > .pdfbtn--hover:hover {
+  background-color: #db06314f;
+}
+
+.whabtn{
+  color: #1d8129 ;
 }
 
 .mailbtn{
