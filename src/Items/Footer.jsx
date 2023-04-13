@@ -1,4 +1,4 @@
-import { GitHub, LinkedIn, Mail, PictureAsPdf, WhatsApp } from "@mui/icons-material";
+import { Contrast, GitHub, LinkedIn, Mail, PictureAsPdf, WhatsApp } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 
@@ -29,6 +29,11 @@ const Footer = () => {
         <li className="footer__item pdfbtn--hover click">
           <IconButton className="icon__btn">
             <PictureAsPdf className="pdfbtn"/>
+          </IconButton>
+        </li>
+        <li className="footer__item contrastbtn--hover click">
+          <IconButton className="icon__btn">
+            <Contrast className="contrastbtn"/>
           </IconButton>
         </li>
       </ul>
