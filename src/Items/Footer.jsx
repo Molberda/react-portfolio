@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className="info__footer">
       <ul className="footer__list">
-        <li className="footer__item">
+        <li className="footer__item whabtn--hover click">
           <IconButton className="icon__btn">
-            <WhatsApp color="success"/>
+            <WhatsApp className="whabtn"/>
           </IconButton>
         </li>
-        <li className="footer__item">
+        <li className="footer__item mailbtn--hover click">
           <IconButton className="icon__btn">
             <Mail className="mailbtn"/>
           </IconButton>
@@ -21,12 +21,12 @@ const Footer = () => {
             <GitHub className="gitbtn"/>
           </IconButton>
         </li>
-        <li className="footer__item">
+        <li className="footer__item linkedbtn--hover click">
           <IconButton className="icon__btn">
             <LinkedIn className="linkedbtn"/>
           </IconButton>
         </li>
-        <li className="footer__item">
+        <li className="footer__item pdfbtn--hover click">
           <IconButton className="icon__btn">
             <PictureAsPdf className="pdfbtn"/>
           </IconButton>
