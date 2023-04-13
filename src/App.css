@@ -115,6 +115,19 @@ figure {
   gap: 0.5em;
 }
 
+.MuiButtonBase-root{
+  color: black !important;
+  padding: .4em .7em!important;
+  border-radius: .5em!important;
+  font-size: .95em!important;
+  font-weight: 600!important; 
+  text-transform: none !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  min-width: 0 !important;
+}
+
+
 .projects__group {
   display: flex;
   align-content: center;
@@ -156,14 +169,4 @@ figure {
   transform: translate(-50%, -50%);
 }
 
-.MuiButtonBase-root{
-  color: black !important;
-  padding: .4em .7em!important;
-  border-radius: .5em!important;
-  font-size: .95em!important;
-  font-weight: 600!important; 
-  text-transform: none !important;
-  line-height: 1 !important;
-  letter-spacing: 0 !important;
-  min-width: 0 !important;
-}
+

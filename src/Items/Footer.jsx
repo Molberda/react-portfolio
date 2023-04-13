@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="info__footer">
       <ul className="footer__list">
         <li className="footer__item">
-          <IconButton>
+          <IconButton className="icon__btn">
             <WhatsApp/>
           </IconButton>
         </li>
