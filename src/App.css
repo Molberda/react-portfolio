@@ -59,6 +59,7 @@ figure {
 
 .row__landing{
   align-items: center;
+  position: relative;
 }
 
 .info__container{
