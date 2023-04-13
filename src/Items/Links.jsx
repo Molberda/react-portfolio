@@ -11,11 +11,6 @@ const Links = () => {
                   </Button>
                 </li>
                 <li className="links__item">
-                <Button size='small' className="link click">
-                    Dark Mode
-                  </Button>
-                </li>
-                <li className="links__item">
                   <Button size='small' className="link click">
                     Contact Me
                   </Button>

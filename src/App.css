@@ -135,6 +135,10 @@ figure {
   background-color: #db06314f;
 }
 
+.footer__list > .contrastbtn--hover:hover {
+  background-color: #00000028;
+}
+
 .whabtn{
   color: #1d8129 ;
 }
