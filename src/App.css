@@ -46,7 +46,7 @@ figure {
 }
 
 .click:hover{
-  box-shadow: 0 0 1em black;
+  box-shadow: 0 0 .7em rgba(0, 0, 0, 0.712);
   cursor: pointer;
 }
 

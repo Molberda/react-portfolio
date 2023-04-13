@@ -16,7 +16,7 @@ const Footer = () => {
             <Mail className="mailbtn"/>
           </IconButton>
         </li>
-        <li className="footer__item gitbtn--hover">
+        <li className="footer__item gitbtn--hover click">
           <IconButton className="icon__btn ">
             <GitHub className="gitbtn"/>
           </IconButton>
