@@ -1,10 +1,14 @@
 import React from 'react';
-import "./Modalleft.css"
+import "./Modal.css"
 
 const Modalleft = () => {
+    function toggleModal(){
+        document.querySelector('body').classList.toggle('modalON')
+      }
     return (
         <div className='modalleft'>
-            test
+            
+            <button onClick={toggleModal}>close</button>
         </div>
     );
 }
