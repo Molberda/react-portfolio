@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../Components/Nav";
 import Showcase from "../Components/Showcase";
 import "../App.css"
-import Modalleft from "../Components/Modalleft";
+import Modal from "../Components/Modal";
 
 
 const Landing = () => {
@@ -10,7 +10,7 @@ const Landing = () => {
     <section id="Landing">
       <div className="container container__landing">
         <div className="row row__landing">
-          <Modalleft/>
+          <Modal/>
           <Nav />
           <Showcase />
         </div>
