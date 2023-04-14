@@ -9,8 +9,8 @@ const Landing = () => {
   return (
     <section id="Landing">
       <div className="container container__landing">
-        <div className="row row__landing">
           <Modal/>
+        <div className="row row__landing">
           <Nav />
           <Showcase />
         </div>

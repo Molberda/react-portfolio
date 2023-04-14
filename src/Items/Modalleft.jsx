@@ -11,14 +11,30 @@ const Modalleft = () => {
         <h1 className="modal__title">
           Hello, I'm <span className="highlight">David Moller</span>
         </h1>
-        <p className="modal__text">
-          And I'm a 22 year old{" "}
-          <span className="highlight">frontend developer</span> with a strong
-          desire to grow, improve and acquire knowledge. <br />
-          I'm currently working with Html, Css, JavaScript and React as a
-          freelance developer, helping young entrepreneurs build their dream
-          website{" "}
-        </p>
+        <div className="modal__info--container">
+          <p className="modal__text">
+            And I'm a 22 year old{" "}
+            <span className="highlight">frontend developer</span> with a strong
+            desire to grow, improve and acquire knowledge. <br />
+            I'm currently working with Html, Css, JavaScript and React as a
+            freelance developer, helping young entrepreneurs build their dream
+            website{" "}
+          </p>
+          <div className="modal__languages--container">
+            <ul className="languages__list">
+              <li className="language__item">
+                <figure className="language__wrapper click">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                    alt=""
+                    className="language__img"
+                  />
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button onClick={toggleModal}>close</button>
       </div>
     </div>
   );
