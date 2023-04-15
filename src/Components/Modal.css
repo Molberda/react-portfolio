@@ -36,7 +36,11 @@
 }
 
 .modalON .row__landing{
-    display: none;
+    opacity: 0;
+}
+
+.row__landing{
+    transition: all 300ms ease;
 }
 
 .highlight{
