@@ -32,6 +32,36 @@ const Modalleft = () => {
                   <p className="language__name">css</p>
                 </figure>
               </li>
+              <li className="language__item">
+                <figure className="language__wrapper">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                    alt=""
+                    className="language__img"
+                  />
+                  <p className="language__name">css</p>
+                </figure>
+              </li>
+              <li className="language__item">
+                <figure className="language__wrapper">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                    alt=""
+                    className="language__img"
+                  />
+                  <p className="language__name">css</p>
+                </figure>
+              </li>
+              <li className="language__item">
+                <figure className="language__wrapper">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                    alt=""
+                    className="language__img"
+                  />
+                  <p className="language__name">css</p>
+                </figure>
+              </li>
             </ul>
           </div>
         </div>
