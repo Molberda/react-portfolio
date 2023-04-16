@@ -69,6 +69,12 @@
     text-align: justify;
 }
 
+.languages__list{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+}
+
 .language__wrapper{
     width: 5em;
 }
