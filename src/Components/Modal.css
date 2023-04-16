@@ -77,3 +77,10 @@
     flex: 1;
     padding-left: 2em;
 }
+
+.language__wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
