@@ -84,3 +84,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.language__name{
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.language__wrapper:hover .language__name{
+    opacity: 1;
+}
