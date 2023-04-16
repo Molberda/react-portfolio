@@ -1,7 +1,7 @@
 .modal__row{
     left: 0;
     right: 0;
-    margin: 0 1.5em;
+    margin: auto 1.5em;
     height: 80%;
     position: absolute;
 }
@@ -44,7 +44,9 @@
 }
 
 .highlight{
-    color: red;
+    color: #43e031;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 .modal__info{
