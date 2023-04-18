@@ -32,6 +32,7 @@
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
     transform: translateY(-300%);
+    background-color: #242424;
 }
 
 .modalbottom{
@@ -67,6 +68,7 @@
 .modal__title{
     font-size: 1.7em;
     margin-bottom: .5em;
+    color: white;
 }
 
 .modal__info--container{
@@ -74,6 +76,7 @@
 }
 
 .modal__text{
+    color: white;
     font-size: 1.1em;
     letter-spacing: .06em;
     line-height: 1.4em;
@@ -106,6 +109,7 @@
 .language__name{
     opacity: 0;
     transition: all 300ms ease;
+    color: white;
 }
 
 .language__wrapper:hover .language__name{
