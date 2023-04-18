@@ -18,6 +18,7 @@ const Modaltop = () => {
             And I'm a 22 year old{" "}
             <span className="highlight">frontend developer</span> with a strong
             desire to grow, improve and acquire knowledge. <br />
+            <br />
             I'm currently working with Html, Css, JavaScript and React as a
             freelance developer, helping young entrepreneurs build their dream
             website{" "}
