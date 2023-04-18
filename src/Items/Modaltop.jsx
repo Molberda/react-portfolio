@@ -1,5 +1,7 @@
 import React from "react";
 import "../Components/Modal.css";
+import { IconButton } from "@mui/material";
+import { Close } from "@mui/icons-material";
 
 const Modaltop = () => {
   function toggleModal() {
@@ -65,7 +67,11 @@ const Modaltop = () => {
             </ul>
           </div>
         </div>
-        <button onClick={toggleModal}>close</button>
+        <div className="closebtn">
+          <IconButton onClick={toggleModal}>
+            <Close className="close__icon" />
+          </IconButton>
+        </div>
       </div>
     </div>
   );
