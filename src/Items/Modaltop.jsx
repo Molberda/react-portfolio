@@ -1,12 +1,12 @@
 import React from "react";
 import "../Components/Modal.css";
 
-const Modalleft = () => {
+const Modaltop = () => {
   function toggleModal() {
     document.querySelector("body").classList.toggle("modalON");
   }
   return (
-    <div className="modalleft">
+    <div className="modaltop">
       <div className="modal__info">
         <h1 className="modal__title">
           Hello, I'm <span className="highlight">David Moller</span>
@@ -71,4 +71,4 @@ const Modalleft = () => {
   );
 };
 
-export default Modalleft;
+export default Modaltop;

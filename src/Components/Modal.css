@@ -17,7 +17,7 @@
     overflow: hidden;
 }
 
-.modalleft, .modalright{
+.modaltop, .modalbottom{
     display: flex;
     position: absolute;
     width: 100%;
@@ -27,21 +27,21 @@
     transition: all 1s ease;
 }
 
-.modalleft{
+.modaltop{
     top: 0;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
     transform: translateY(-300%);
 }
 
-.modalright{
+.modalbottom{
     bottom: 0px;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     transform: translateY(300%);
 }
 
-.modalON .modalleft, .modalON .modalright{
+.modalON .modaltop, .modalON .modalbottom{
     transform: translateY(0);
 }
 

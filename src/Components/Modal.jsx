@@ -1,14 +1,14 @@
 import React from "react";
 import "./Modal.css";
-import Modalleft from "../Items/Modalleft";
-import Modalright from "../Items/Modalright";
+import Modaltop from "../Items/Modaltop";
+import Modalbottom from "../Items/Modalbottom";
 
 const Modal = () => {
   return (
     <div className="modal__row">
       <div className="modal">
-        <Modalleft />
-        <Modalright />
+        <Modaltop/>
+        <Modalbottom/>
       </div>
     </div>
   );
