@@ -29,11 +29,15 @@
 
 .modalleft{
     top: 0;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
     transform: translateY(-300%);
 }
 
 .modalright{
     bottom: 0px;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
     transform: translateY(300%);
 }
 
