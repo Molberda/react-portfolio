@@ -70,7 +70,7 @@
 
 .modal__title{
     font-size: 1.9em;
-    margin-bottom: .5em;
+    margin-bottom: .7em;
     color: white;
 }
 
@@ -81,7 +81,7 @@
 
 .modal__text{
     color: white;
-    font-size: 1.05em;
+    font-size: 1.1em;
     letter-spacing: .06em;
     line-height: 1.4em;
     max-width: 45%;
