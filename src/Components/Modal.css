@@ -101,6 +101,7 @@
 
 .language__wrapper{
     width: 5em;
+    border-radius: 1em;
 }
 
 .language__img{
@@ -126,7 +127,7 @@
     opacity: 1;
 }
 
-.language__wrapper:hover .language__img{
+.language__wrapper:hover{
     box-shadow: 0 0 .7em rgba(255, 255, 255, 0.346);
 }
 
