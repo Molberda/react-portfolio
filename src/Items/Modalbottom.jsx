@@ -6,20 +6,23 @@ const Modalbottom = () => {
     <div className="modalbottom">
       <div className="modal__info">
         <h1 className="modal__title">
-          Hello, I'm <span className="highlight">David Moller</span>
+         Dont hesitate to <span className="highlight">Contact Me!</span>
         </h1>
         <div className="modal__info--container">
-          <p className="modal__text">
-            And I'm a 22 year old{" "}
-            <span className="highlight">frontend developer</span> with a strong
-            desire to grow, improve and acquire knowledge. <br />
-            <br />
-            I'm currently working with Html, Css, JavaScript and React as a
-            freelance developer, helping young entrepreneurs build their dream
-            website{" "}
-          </p>
-          <div className="modal__languages--container">
-          </div>
+          <form action="" className="modal__form">
+           <div className="form__item">
+            <label htmlFor="name">Name</label>
+            <input type="text" />
+           </div>
+           <div className="form__item">
+            <label htmlFor="email">email</label>
+            <input type="email" />
+           </div>
+           <div className="form__item">
+            <label htmlFor="message">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+           </div>
+          </form>
         </div>
       </div>
     </div>
