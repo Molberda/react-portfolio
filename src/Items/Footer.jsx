@@ -15,7 +15,7 @@ const Footer = () => {
       <ul className="footer__list">
         <li className="footer__item whabtn--hover click">
           <IconButton className="icon__btn">
-            <a href="" className="icon__link">
+            <a href="https://wa.me/573163402080" target="_blank" className="icon__link">
               <WhatsApp className="whabtn" />
             </a>
           </IconButton>
