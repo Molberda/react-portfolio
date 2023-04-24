@@ -36,7 +36,7 @@ const Footer = () => {
         </li>
         <li className="footer__item linkedbtn--hover click">
           <IconButton className="icon__btn">
-            <a href="" className="icon__link">
+            <a href="https://www.linkedin.com/in/david-moller-2a9512255/" target="_blank" className="icon__link">
               <LinkedIn className="linkedbtn" />
             </a>
           </IconButton>
