@@ -22,7 +22,7 @@ const Footer = () => {
         </li>
         <li className="footer__item mailbtn--hover click">
           <IconButton className="icon__btn">
-            <a href="" className="icon__link">
+            <a href="mailto:davidmollera@hotmail.com" target="_blank" className="icon__link">
               <Mail className="mailbtn" />
             </a>
           </IconButton>
