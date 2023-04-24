@@ -1,4 +1,11 @@
-import { Contrast, GitHub, LinkedIn, Mail, PictureAsPdf, WhatsApp } from "@mui/icons-material";
+import {
+  Contrast,
+  GitHub,
+  LinkedIn,
+  Mail,
+  PictureAsPdf,
+  WhatsApp,
+} from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 
@@ -8,32 +15,44 @@ const Footer = () => {
       <ul className="footer__list">
         <li className="footer__item whabtn--hover click">
           <IconButton className="icon__btn">
-            <WhatsApp className="whabtn"/>
+            <a href="" className="icon__link">
+              <WhatsApp className="whabtn" />
+            </a>
           </IconButton>
         </li>
         <li className="footer__item mailbtn--hover click">
           <IconButton className="icon__btn">
-            <Mail className="mailbtn"/>
+            <a href="" className="icon__link">
+              <Mail className="mailbtn" />
+            </a>
           </IconButton>
         </li>
         <li className="footer__item gitbtn--hover click">
           <IconButton className="icon__btn ">
-            <GitHub className="gitbtn"/>
+            <a href="" className="icon__link">
+              <GitHub className="gitbtn" />
+            </a>
           </IconButton>
         </li>
         <li className="footer__item linkedbtn--hover click">
           <IconButton className="icon__btn">
-            <LinkedIn className="linkedbtn"/>
+            <a href="" className="icon__link">
+              <LinkedIn className="linkedbtn" />
+            </a>
           </IconButton>
         </li>
         <li className="footer__item pdfbtn--hover click">
           <IconButton className="icon__btn">
-            <PictureAsPdf className="pdfbtn"/>
+            <a href="" className="icon__link">
+              <PictureAsPdf className="pdfbtn" />
+            </a>
           </IconButton>
         </li>
         <li className="footer__item contrastbtn--hover click">
           <IconButton className="icon__btn">
-            <Contrast className="contrastbtn"/>
+            <a href="" className="icon__link">
+              <Contrast className="contrastbtn" />
+            </a>
           </IconButton>
         </li>
       </ul>

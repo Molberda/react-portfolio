@@ -120,6 +120,10 @@ figure {
   border-radius: 4px;
 }
 
+.icon__link{
+  display: flex;
+}
+
 .footer__list > .whabtn--hover:hover {
   background-color: #07e42141;
 }
@@ -162,6 +166,10 @@ figure {
 
 .gitbtn{
   color: #792f9b;
+}
+
+.contrastbtn{
+  color: #242424;
 }
 
 
