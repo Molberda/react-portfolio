@@ -29,7 +29,7 @@ const Footer = () => {
         </li>
         <li className="footer__item gitbtn--hover click">
           <IconButton className="icon__btn ">
-            <a href="" className="icon__link">
+            <a href="https://github.com/Molberda" target="_blank" className="icon__link">
               <GitHub className="gitbtn" />
             </a>
           </IconButton>
