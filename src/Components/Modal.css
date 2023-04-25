@@ -159,3 +159,12 @@
 .modalbottom > .modal__info > .modal__title{
     color: #242424;
 }
+
+.modal__form{
+    display: flex;
+    width: 100%;
+}
+
+.form__item{
+    margin: .3em;
+}
