@@ -166,10 +166,11 @@
 }
 
 .form__item{
-    margin: .3em;
+    margin-right: .3em;
 }
 
 label{
     font-weight: 600;
     color: #242424;
+    margin-right: .5em;
 }
