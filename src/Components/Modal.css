@@ -173,4 +173,16 @@ label{
     font-weight: 600;
     color: #242424;
     margin-right: .5em;
+    font-size: 1.1em;
+}
+
+input, textarea{
+    font-size: .9em;
+    width: 100%;
+    padding: .2em;
+}
+
+textarea{
+    resize: vertical;
+    height: 4em;
 }

@@ -20,7 +20,7 @@ const Modalbottom = () => {
            </div>
            <div className="form__item">
             <label htmlFor="message">Message</label>
-            <textarea name="" id="" cols="30" rows="4" placeholder="I really like your work, lets have a chat!"></textarea>
+            <textarea placeholder="I really like your work, lets have a chat!"></textarea>
            </div>
           </form>
         </div>
