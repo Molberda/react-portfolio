@@ -24,7 +24,7 @@ const Footer = () => {
               target="_blank"
               className="icon__link"
             >
-              <WhatsApp className="whabtn icon" />
+              <WhatsApp className="whabtn" />
             </a>
           </IconButton>
         </li>
@@ -35,7 +35,7 @@ const Footer = () => {
               target="_blank"
               className="icon__link"
             >
-              <Mail className="mailbtn icon" />
+              <Mail className="mailbtn" />
             </a>
           </IconButton>
         </li>
@@ -46,31 +46,31 @@ const Footer = () => {
               target="_blank"
               className="icon__link"
             >
-              <GitHub className="gitbtn icon" />
+              <GitHub className="gitbtn" />
             </a>
           </IconButton>
         </li>
         <li className="footer__item linkedbtn--hover click">
-          <IconButton className="icon__btn icon">
+          <IconButton className="icon__btn">
             <a
               href="https://www.linkedin.com/in/david-moller-2a9512255/"
               target="_blank"
               className="icon__link"
             >
-              <LinkedIn className="linkedbtn icon" />
+              <LinkedIn className="linkedbtn" />
             </a>
           </IconButton>
         </li>
         <li className="footer__item pdfbtn--hover click">
           <IconButton className="icon__btn">
             <a href="" className="icon__link">
-              <PictureAsPdf className="pdfbtn icon" />
+              <PictureAsPdf className="pdfbtn" />
             </a>
           </IconButton>
         </li>
         <li className="footer__item contrastbtn--hover click">
           <IconButton className="icon__btn" onClick={contrastOn}>
-            <Contrast className="contrastbtn icon" />
+            <Contrast className="contrastbtn" />
           </IconButton>
         </li>
       </ul>
