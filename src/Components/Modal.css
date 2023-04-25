@@ -168,3 +168,8 @@
 .form__item{
     margin: .3em;
 }
+
+label{
+    font-weight: 600;
+    color: #242424;
+}
