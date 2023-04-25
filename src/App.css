@@ -67,7 +67,8 @@ figure {
 }
 
 .info__container{
-  padding: 4em 1em;
+  font-size: 1.2em;
+  padding: 2em 2em;
   border-radius: 1em;
   box-shadow: 0 0 2em black;
   gap: 3em;
@@ -98,7 +99,7 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .5em;
+  gap: .8em;
 }
 
 .link{
@@ -113,6 +114,7 @@ figure {
 .footer__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5em;
 }
 
