@@ -16,6 +16,7 @@
 
 .modalON .modal{
     box-shadow: 0 0 2em black;
+    z-index: 10;
 }
 
 .modal{
@@ -49,18 +50,11 @@
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     transform: translateY(100%);
+    background-color: #fbfade;
 }
 
 .modalON .modaltop, .modalON .modalbottom{
     transform: translateY(0);
-}
-
-.modalON .row__landing{
-    opacity: 0;
-}
-
-.row__landing{
-    transition: all 300ms ease;
 }
 
 .highlight{
