@@ -6,10 +6,16 @@
 .modal__row{
     left: 0;
     right: 0;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     height: 80%;
     position: absolute;
+    border-radius: 1em;
+    transition: all 300ms ease;
+}
+
+.modalON .modal__row{
+    box-shadow: 0 0 2em black;
 }
 
 .modal{
@@ -50,11 +56,6 @@
 
 .modalON .row__landing{
     opacity: 0;
-}
-
-.modalON .modal{
-    box-shadow: 0 0 3em #242424;
-    border-radius: 1em;
 }
 
 .row__landing{
