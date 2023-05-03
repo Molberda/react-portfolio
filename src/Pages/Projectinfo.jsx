@@ -2,6 +2,7 @@ import { Language } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 import { useParams } from "react-router-dom";
+import "./Projectinfo.css"
 
 const Projectinfo = ({ projects }) => {
   const { id } = useParams();
