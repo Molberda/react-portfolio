@@ -3,54 +3,63 @@ export const projects = [
        id: 1,
        title: "Barco",
        img: "",
-       info: "info test" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 2,
        title: "Delizioso",
        img: "",
-       info: "info test1" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 3,
        title: "Google",
        img: "",
-       info: "info test2" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 4,
        title: "We Vape",
        img: "",
-       info: "info test3" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 5,
        title: "xx",
        img: "",
-       info: "info test4" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 6,
        title: "xx",
        img: "",
-       info: "info test5" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 7,
        title: "xx",
        img: "",
-       info: "info test6" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 8,
        title: "xx",
        img: "",
-       info: "info test7" 
+       info: "info test",
+       link: "test link" 
     },
     {
        id: 9,
        title: "xx",
        img: "",
-       info: "info test8" 
+       info: "info test",
+       link: "test link" 
     },
 ]
