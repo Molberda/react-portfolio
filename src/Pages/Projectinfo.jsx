@@ -1,18 +1,29 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Language } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
+import React from "react";
+import { useParams } from "react-router-dom";
 
 const Projectinfo = ({ projects }) => {
-    const { id } = useParams()
-    const project = projects.find((project) => project.id === +id)
-    return (
-        <div className="projects__body">
-            <div className="container projects__container">
-                <div className="row projects__row">
-                    
-                </div>
-            </div>
+  const { id } = useParams();
+  const project = projects.find((project) => project.id === +id);
+
+  return (
+    <div id="projects__body">
+      <div className="container projects__container">
+        <div className="row projects__row">
+          <div className="project__info--container">
+            <h1>{project.title}</h1>
+            <h3>{project.info}</h3>
+            <a href={project.link}>
+              <IconButton>
+                <Language />
+              </IconButton>
+            </a>
+          </div>
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default Projectinfo;
