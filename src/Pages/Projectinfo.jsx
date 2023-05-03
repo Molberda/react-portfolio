@@ -5,7 +5,13 @@ const Projectinfo = ({ projects }) => {
     const { id } = useParams()
     const project = projects.find((project) => project.id === +id)
     return (
-        <h1>{project.title} test</h1>
+        <div className="projects__body">
+            <div className="container projects__container">
+                <div className="row projects__row">
+                    
+                </div>
+            </div>
+        </div>
     );
 }
 
