@@ -2,6 +2,11 @@
     height: 100vh;
 }
 
+.projects__row{
+    flex-direction: column;
+    gap: 4em;
+}
+
 .project__info--container{
     margin-top: 2em;
     display: flex;
