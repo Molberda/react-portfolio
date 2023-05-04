@@ -4,6 +4,7 @@
 
 .projects__row{
     flex-direction: column;
+    align-items: center;
     gap: 4em;
 }
 
@@ -16,4 +17,8 @@
 
 .project__link{
     text-align: center;
+}
+
+.project__preview--wrapper{
+    max-width: 35em;
 }
