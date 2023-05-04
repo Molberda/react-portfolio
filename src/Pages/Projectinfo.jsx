@@ -21,6 +21,9 @@ const Projectinfo = ({ projects }) => {
               </IconButton>
             </a>
           </div>
+          <figure className="project__preview--wrapper">
+            <img src="" alt="" className="project__preview--img" />
+          </figure>
         </div>
       </div>
     </div>

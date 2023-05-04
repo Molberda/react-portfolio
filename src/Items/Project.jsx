@@ -7,7 +7,7 @@ const Project = ({ item }) => {
       <Link to={`/project/${item.id}`}>
         <figure className="project__wrapper">
           <img
-            src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+            src={item.img}
             alt=""
             className="project__img"
           />
