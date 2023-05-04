@@ -13,6 +13,7 @@
 .project__info--container{
     display: flex;
     flex-direction: column;
+    gap: .5em;
     width: 100%;
 }
 
@@ -24,4 +25,5 @@
     max-width: 35em;
     overflow: hidden;
     border-radius: 1em;
+    box-shadow: 0 0 2em ;
 }
