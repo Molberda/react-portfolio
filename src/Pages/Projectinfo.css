@@ -22,4 +22,6 @@
 
 .project__preview--wrapper{
     max-width: 35em;
+    overflow: hidden;
+    border-radius: 1em;
 }
