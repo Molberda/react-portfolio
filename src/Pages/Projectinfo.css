@@ -29,10 +29,23 @@
     box-shadow: 0 0 2em ;
 }
 
+.project__preview--wrapper:hover .preview__img{
+    filter: blur(.1em);
+}
+
+.project__preview--wrapper:hover .preview__background{
+    opacity: 1;
+}
+
 .preview__background{
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    padding: 1em;
+    opacity: 0;
+    z-index: 3;
+    transition: all 300ms ease;
 }

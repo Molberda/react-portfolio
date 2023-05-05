@@ -23,7 +23,7 @@ const Projectinfo = ({ projects }) => {
           </div>
           <figure className="project__preview--wrapper">
             <div className="preview__background">asdasd</div>
-            <img src={project.img} alt="" />
+            <img src={project.img} alt="" className="preview__img" />
           </figure>
         </div>
       </div>
