@@ -2,7 +2,7 @@ import { Language } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 import { useParams } from "react-router-dom";
-import "./Projectinfo.css"
+import "./Projectinfo.css";
 
 const Projectinfo = ({ projects }) => {
   const { id } = useParams();
@@ -22,6 +22,7 @@ const Projectinfo = ({ projects }) => {
             </a>
           </div>
           <figure className="project__preview--wrapper">
+            <div className="preview__background"></div>
             <img src={project.img} alt="" />
           </figure>
         </div>
