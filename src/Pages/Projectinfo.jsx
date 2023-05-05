@@ -3,6 +3,7 @@ import { IconButton } from "@mui/material";
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./Projectinfo.css";
+import Preview from "../Components/Preview";
 
 const Projectinfo = ({ projects }) => {
   const { id } = useParams();
@@ -22,6 +23,7 @@ const Projectinfo = ({ projects }) => {
             </a>
           </div>
           <figure className="project__preview--wrapper">
+            <Preview project={project}/>
             <img src={project.img} alt="" className="preview__img" />
           </figure>
         </div>
