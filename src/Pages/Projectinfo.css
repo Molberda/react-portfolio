@@ -22,8 +22,17 @@
 }
 
 .project__preview--wrapper{
+    position: relative;
     max-width: 35em;
     overflow: hidden;
     border-radius: 1em;
     box-shadow: 0 0 2em ;
+}
+
+.preview__background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
