@@ -56,6 +56,7 @@
 .background__info--container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
 }
 
@@ -63,4 +64,9 @@
     text-align: center;
     font-size: 3.5em;
     color: white;
+}
+
+.preview__btn{
+    padding: .7em 1em !important;
+    width: fit-content;
 }
