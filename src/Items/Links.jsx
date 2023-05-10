@@ -15,7 +15,7 @@ const Links = () => {
                   </Button>
                 </li>
                 <li className="links__item">
-                  <Button size='small' className="link click">
+                  <Button size='small' className="link click" onClick={toggleModal}>
                     Contact Me
                   </Button>
                 </li>
