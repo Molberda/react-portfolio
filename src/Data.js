@@ -4,7 +4,7 @@ export const projects = [
     title: "Barco",
     img: "",
     info: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque lobortis massa, et condimentum dolor congue in. Vivamus tortor diam, vestibulum in luctus quis, commodo ac lectus. Quisque placerat ipsum eu tellus venenatis, sed fermentum sem volutpat. In tempus diam at ultrices pellentesque. Maecenas eu pellentesque diam. Nam sit amet risus leo. Etiam eget orci at est feugiat dictum id ac quam.Vivamus libero nunc, ultrices a leo volutpat, pharetra vulputate augue. Donec varius urna eget risus tincidunt iaculis. Quisque posuere vehicula augue, in facilisis justo blandit at. Duis a dolor vel tortor accumsan volutpat. Etiam eget condimentum ligula. Cras ultrices augue sit amet diam dignissim, sit amet aliquam massa bibendum. Aliquam erat volutpat. Morbi finibus sem a rhoncus placerat.`,
-    link: "test link",
+    link: "https://barco-react-app.vercel.app",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
   },
   {
