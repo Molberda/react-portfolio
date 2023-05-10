@@ -83,3 +83,7 @@
     font-size: 1.5em;
     color: white;
 }
+
+.link__icon{
+    color: white !important;
+}
