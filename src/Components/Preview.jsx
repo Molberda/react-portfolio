@@ -5,7 +5,7 @@ const Preview = ({ project }) => {
   return (
     <div className="preview__background">
       <div className="background__info--container">
-        <h2>{project.title}</h2>
+        <h2 className="preview__title">{project.title}</h2>
         <Button>
           <a href={project.link}>Take a Look!</a>
         </Button>
