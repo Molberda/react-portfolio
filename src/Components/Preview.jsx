@@ -6,7 +6,7 @@ const Preview = ({ project }) => {
     <div className="preview__background">
       <div className="background__info--container">
         <h2 className="preview__title">{project.title}</h2>
-        <Button className="preview__btn">
+        <Button variant='outlined' className="preview__btn">
           <a href={project.link} className="preview__link">Take a Look!</a>
         </Button>
       </div>

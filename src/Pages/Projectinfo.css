@@ -71,6 +71,15 @@
     width: fit-content;
 }
 
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    border: 2px solid rgb(186, 186, 186) !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
+    border: 2px solid white !important;
+}
+
 .preview__link{
     font-size: 1.5em;
+    color: white;
 }
