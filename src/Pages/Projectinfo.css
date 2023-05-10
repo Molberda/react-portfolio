@@ -67,6 +67,10 @@
 }
 
 .preview__btn{
-    padding: .7em 1em !important;
+    padding: .8em 1.2em !important;
     width: fit-content;
+}
+
+.preview__link{
+    font-size: 1.5em;
 }
