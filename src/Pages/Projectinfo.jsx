@@ -16,11 +16,6 @@ const Projectinfo = ({ projects }) => {
           <div className="project__info--container">
             <h1>{project.title}</h1>
             <h3>{project.info}</h3>
-            <a className="project__link" href={project.link}>
-              <IconButton>
-                <Language />
-              </IconButton>
-            </a>
           </div>
           <figure className="project__preview--wrapper">
             <Preview project={project}/>

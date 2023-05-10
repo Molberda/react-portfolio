@@ -17,10 +17,6 @@
     width: 100%;
 }
 
-.project__link{
-    text-align: center;
-}
-
 .project__preview--wrapper{
     position: relative;
     max-width: 35em;
