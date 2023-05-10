@@ -53,6 +53,12 @@
     transition: all 300ms ease;
 }
 
+.background__info--container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 .preview__title{
     text-align: center;
     font-size: 3.5em;
