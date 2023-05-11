@@ -13,7 +13,7 @@ const Projectinfo = ({ projects }) => {
     <div id="projects__body">
       <div className="container projects__container">
         <div className="row projects__row">
-          <Link>
+          <Link className="close__link" to='/'>
             <IconButton>
               <Close className="close__btn" />
             </IconButton>
