@@ -9,8 +9,19 @@
     align-items: center;
     justify-content: center;
     gap: 4em;
+    max-height: 75vh;
     box-shadow: 0 0 2em;
     border-radius: 2em;
+    animation: slideIn 800ms;
+}
+
+@keyframes slideIn {
+    0%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 
 .project__info--container{
