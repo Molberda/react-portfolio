@@ -3,6 +3,11 @@
     padding: 1em 0;
 }
 
+.projects__container{
+    display: flex;
+    align-items: center;
+}
+
 .projects__row{
     position: relative;
     flex-direction: column;
