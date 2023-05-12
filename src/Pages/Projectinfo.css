@@ -6,6 +6,7 @@
 .projects__container{
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .projects__row{
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4em;
+    gap: 3em;
     max-height: 75vh;
     box-shadow: 0 0 2em;
     border-radius: 2em;
@@ -43,7 +44,7 @@
 
 .project__preview--wrapper{
     position: relative;
-    max-width: 45em;
+    width: 45em;
     overflow: hidden;
     border-radius: 1em;
     box-shadow: 0 0 2em ;
@@ -110,8 +111,8 @@
 
 .close__project{
     position: absolute;
-    top: 6em;
-    left: 2em;
+    top: 3.5em;
+    right: 4em;
 }
 
 .close__link{
