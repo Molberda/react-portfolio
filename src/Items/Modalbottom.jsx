@@ -1,5 +1,6 @@
 import React from "react";
 import "../Components/Modal.css";
+import { Button } from "@mui/material";
 
 const Modalbottom = () => {
   return (
@@ -22,6 +23,9 @@ const Modalbottom = () => {
             <label htmlFor="message">Message</label>
             <textarea placeholder="I really like your work, lets have a chat!"></textarea>
            </div>
+           <Button type="submit" variant="contained" color='success'>
+            <h1>Send!</h1>
+           </Button>
           </form>
         </div>
       </div>
