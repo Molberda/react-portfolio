@@ -167,6 +167,12 @@
     width: 100%;
 }
 
+.form__organizer{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
 .form__item{
     margin-right: .3em;
 }
@@ -175,16 +181,19 @@ label{
     font-weight: 600;
     color: #242424;
     margin-right: .5em;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 input, textarea{
-    font-size: .9em;
+    font-size: 1.2em;
     width: 100%;
     padding: .2em;
+    outline: none;
+    background-color: #fbfade;
+    border: none;
 }
 
 textarea{
     resize: vertical;
-    height: 4em;
+    height: 5em;
 }
