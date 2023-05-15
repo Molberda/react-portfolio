@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../Components/Modal.css";
 import { Button } from "@mui/material";
+import emailjs from '@emailjs/browser'
 
 const Modalbottom = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wuzb1m5', 'template_yh47puc', form.current, 'pP19DnVESUmrE9Psq')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
   return (
     <div className="modalbottom">
       <div className="modal__info">
@@ -11,7 +26,7 @@ const Modalbottom = () => {
         </h1>
         <div className="modal__info--container">
           <div className="form__container">
-            <form action="" className="modal__form">
+            <form ref={form} id="modal__form" onSubmit={sendEmail}>
               <div className="form__organizer">
                 <div className="form__item">
                   <label htmlFor="name">Name</label>
