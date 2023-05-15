@@ -15,13 +15,14 @@ const Modalbottom = () => {
               <div className="form__organizer">
                 <div className="form__item">
                   <label htmlFor="name">Name</label>
-                  <input type="text" placeholder="John Doe" required />
+                  <input type="text" placeholder="John Doe" name="user_name" required />
                 </div>
                 <div className="form__item">
                   <label htmlFor="email">email</label>
                   <input
                     type="email"
                     placeholder="johndoe@gmail.com"
+                    name="user_email"
                     required
                   />
                 </div>
@@ -30,8 +31,9 @@ const Modalbottom = () => {
                 <label htmlFor="message">Message</label>
                 <textarea
                   placeholder="I really like your work, lets have a chat!"
+                  name="message"
                   required
-                ></textarea>
+                />
               </div>
               <Button type="submit" variant="contained" color="success">
                 <h1>Send!</h1>
