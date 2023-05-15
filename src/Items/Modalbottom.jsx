@@ -15,16 +15,23 @@ const Modalbottom = () => {
               <div className="form__organizer">
                 <div className="form__item">
                   <label htmlFor="name">Name</label>
-                  <input type="text" placeholder="John Doe" />
+                  <input type="text" placeholder="John Doe" required />
                 </div>
                 <div className="form__item">
                   <label htmlFor="email">email</label>
-                  <input type="email" placeholder="johndoe@gmail.com" />
+                  <input
+                    type="email"
+                    placeholder="johndoe@gmail.com"
+                    required
+                  />
                 </div>
               </div>
               <div className="form__item">
                 <label htmlFor="message">Message</label>
-                <textarea placeholder="I really like your work, lets have a chat!"></textarea>
+                <textarea
+                  placeholder="I really like your work, lets have a chat!"
+                  required
+                ></textarea>
               </div>
               <Button type="submit" variant="contained" color="success">
                 <h1>Send!</h1>
