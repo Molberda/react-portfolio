@@ -1,34 +1,44 @@
 import React, { useRef } from "react";
 import "../Components/Modal.css";
 import { Button } from "@mui/material";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 
 const Modalbottom = () => {
-
   const form = useRef();
 
-  const loading = document.querySelector('.modal__loading')
-  const success = document.querySelector('.modal__success')
-  const error = document.querySelector('.modal__error')
+  const loading = document.querySelector(".modal__loading");
+  const success = document.querySelector(".modal__success");
+  const error = document.querySelector(".modal__error");
 
   const sendEmail = (e) => {
     e.preventDefault();
-    loading.classList += ' modal__overlay--visible'
-    emailjs.sendForm('service_wuzb1m5', 'template_yh47puc', form.current, 'pP19DnVESUmrE9Psq')
-      .then((result) => {
-        loading.classList.remove('modal__overlay--visible')
-        success.classList += ' modal__overlay--visible'
-        console.log(result.text);
-      }, (flaw) => {
-        loading.classList.remove('modal__overlay--visible')
-        error.classList += ' modal__overlay--visible'
+    loading.classList += " modal__overlay--visible";
+    emailjs
+      .sendForm(
+        "service_wuzb1m5",
+        "template_yh47puc",
+        form.current,
+        "pP19DnVESUmrE9Psq"
+      )
+      .then(
+        (result) => {
+          loading.classList.remove("modal__overlay--visible");
+          success.classList += " modal__overlay--visible";
+          console.log(result.text);
+        },
+        (flaw) => {
+          loading.classList.remove("modal__overlay--visible");
+          error.classList += " modal__overlay--visible";
           console.log(flaw.text);
-      });
+        }
+      );
   };
-  
+
   return (
     <div className="modalbottom">
-      <div className="modal__overlay modal__loading"></div>
+      <div className="modal__overlay modal__loading">
+        <div class="custom-loader"></div>
+      </div>
       <div className="modal__overlay modal__success"></div>
       <div className="modal__overlay modal__error"></div>
       <div className="modal__info">
@@ -41,7 +51,12 @@ const Modalbottom = () => {
               <div className="form__organizer">
                 <div className="form__item">
                   <label htmlFor="name">Name</label>
-                  <input type="text" placeholder="John Doe" name="user_name" required />
+                  <input
+                    type="text"
+                    placeholder="John Doe"
+                    name="user_name"
+                    required
+                  />
                 </div>
                 <div className="form__item">
                   <label htmlFor="email">Email</label>
