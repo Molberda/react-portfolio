@@ -1,11 +1,16 @@
-.dark #root{
-    background-color: #242424;
+.dark #root {
+  background-color: #242424;
 }
 
-.dark .info__container{
-    box-shadow: 0 0 2em #fff;
+.dark .info__container,
+.dark .projects__row,
+.dark .project__preview--wrapper {
+  box-shadow: 0 0 1.5em #ffffffa4;
 }
 
-.dark h1, .dark .links__item > button{
-    color: #fff !important;
+.dark h1,
+.dark h3,
+.dark .links__item > button,
+.dark .contrastbtn {
+  color: #fff !important;
 }

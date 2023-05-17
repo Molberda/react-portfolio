@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style: none;
   /* outline: red 2px dotted; */
+  transition: all 300ms ease;
 }
 
 #root{
