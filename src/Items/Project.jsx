@@ -11,12 +11,9 @@ const Project = ({ item }) => {
     image.onload = () => {
       setTimeout(() => {
         setimg(image)
-      }, 600)
+      },1200)
     }
   });
-  
-  const image = new Image
-  
 
   return (
     <div className="project__container click">
@@ -34,19 +31,7 @@ const Project = ({ item }) => {
         </figure>
       </Link></>)
        :
-        (<>  </>)}
-      {/* <Link to={`/project/${item.id}`}>
-        <figure className="project__wrapper">
-          <img
-            src={img}
-            alt=""
-            className="project__img"
-          />
-          <span className="project__background">
-            <h1 className="project__title">{item.title}</h1>
-          </span>
-        </figure>
-      </Link> */}
+        (<> <div class="custom-loader"></div> </>)}
     </div>
   );
 };

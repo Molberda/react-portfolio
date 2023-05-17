@@ -68,6 +68,7 @@ figure {
 }
 
 .info__container{
+  max-width: 13.9em;
   font-size: 1.2em;
   padding: 2em 2em;
   border-radius: 1em;
@@ -215,11 +216,39 @@ figure {
 
 .project__container {
   display: flex;
-  max-width: 31%;
+  width: 31%;
+  min-height: 12em;
   position: relative;
   border-radius: 1em;
   overflow: hidden;
 }
+
+/* LOADER CSS */
+
+.custom-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:2em;
+  height:2em;
+  --c:radial-gradient(circle closest-side,#43e031 90%,#0000);
+  background: 
+    var(--c) 0    0,
+    var(--c) 0    100%,
+    var(--c) 100% 100%;
+  background-size:12px 12px;
+  background-repeat: no-repeat;
+  animation:d1 1s infinite linear;
+}
+@keyframes d1 {
+    25% {background-position:100% 0   ,0 100%,100% 100%}
+    50% {background-position:100% 0   ,0 0   ,100% 100%}
+    75% {background-position:100% 0   ,0 0   ,0    100%}
+    100%{background-position:100% 100%,0 0   ,0    100%}
+}
+
+/* LOADER CSS */
 
 .project__background {
   position: absolute;
