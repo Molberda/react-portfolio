@@ -4,7 +4,8 @@
 
 .dark .info__container,
 .dark .projects__row,
-.dark .project__preview--wrapper{
+.dark .project__preview--wrapper,
+.dark.modalON .modal{
   box-shadow: 0 0 1.5em #ffffffa4;
 }
 
@@ -14,6 +15,10 @@
 .dark .contrastbtn,
 .dark .close__link {
   color: #fff !important;
+}
+
+.dark .info__personal{
+    border-color: #fff;
 }
 
 .dark .close__link{
