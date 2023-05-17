@@ -11,7 +11,7 @@ import React from "react";
 
 const Footer = () => {
   function contrastOn(){
-    console.log('contrast')
+    document.querySelector('body').classList.toggle('dark')
   }
 
   return (
