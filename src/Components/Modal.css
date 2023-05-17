@@ -202,12 +202,17 @@ input, textarea{
     padding: .2em;
     outline: none;
     background-color: #fbfade;
-    border: none;
+    border: lightgray 3px solid;
+    border-radius: .5em;
+}
+
+input:focus, textarea:focus{
+    border-color: #43e031;
 }
 
 textarea{
     resize: vertical;
-    height: 5em;
+    height: 6em;
 }
 
 #modal__form > button {
@@ -216,4 +221,11 @@ textarea{
     background-color: #43e031;
     max-height: 6em;
     max-width: 15em;
+    border: 3px transparent solid;
+}
+
+#modal__form > button:hover{
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.656);
+    border-color: white;
+    color: white;
 }

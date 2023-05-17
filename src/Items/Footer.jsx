@@ -21,7 +21,7 @@ const Footer = () => {
           <IconButton className="icon__btn">
             <a
               href="https://wa.me/573163402080"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="icon__link"
             >
               <WhatsApp className="whabtn" />
@@ -32,7 +32,7 @@ const Footer = () => {
           <IconButton className="icon__btn">
             <a
               href="mailto:davidmollera@hotmail.com"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="icon__link"
             >
               <Mail className="mailbtn" />
@@ -43,7 +43,7 @@ const Footer = () => {
           <IconButton className="icon__btn ">
             <a
               href="https://github.com/Molberda"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="icon__link"
             >
               <GitHub className="gitbtn" />
@@ -54,7 +54,7 @@ const Footer = () => {
           <IconButton className="icon__btn">
             <a
               href="https://www.linkedin.com/in/david-moller-2a9512255/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="icon__link"
             >
               <LinkedIn className="linkedbtn" />

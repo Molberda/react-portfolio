@@ -33,7 +33,7 @@ const Modalbottom = () => {
                   <input type="text" placeholder="John Doe" name="user_name" required />
                 </div>
                 <div className="form__item">
-                  <label htmlFor="email">email</label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     placeholder="johndoe@gmail.com"
