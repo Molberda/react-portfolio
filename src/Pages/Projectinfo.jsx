@@ -2,7 +2,7 @@ import { Close } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import "./Projectinfo.css";
+import "../Css/Projectinfo.css";
 import Preview from "../Components/Preview";
 
 const Projectinfo = ({ projects }) => {

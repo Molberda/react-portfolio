@@ -1,0 +1,11 @@
+.dark #root{
+    background-color: #242424;
+}
+
+.dark .info__container{
+    box-shadow: 0 0 2em #fff;
+}
+
+.dark h1, .dark .links__item > button{
+    color: #fff !important;
+}
