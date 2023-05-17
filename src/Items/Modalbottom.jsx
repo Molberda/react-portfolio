@@ -7,26 +7,30 @@ const Modalbottom = () => {
 
   const form = useRef();
 
-  const loading = document.querySelector('modal--loading')
-  const success = document.querySelector('modal--success')
-  const error = document.querySelector('modal--error')
+  const loading = document.querySelector('.modal__loading')
+  const success = document.querySelector('.modal__success')
+  const error = document.querySelector('.modal__error')
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    loading.classList += ' modal__overlay--visible'
     emailjs.sendForm('service_wuzb1m5', 'template_yh47puc', form.current, 'pP19DnVESUmrE9Psq')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        loading.classList.remove('modal__overlay--visible')
+        success.classList += ' modal__overlay--visible'
+        console.log(result.text);
+      }, (flaw) => {
+        loading.classList.remove('modal__overlay--visible')
+        error.classList += ' modal__overlay--visible'
+          console.log(flaw.text);
       });
   };
   
   return (
     <div className="modalbottom">
-      <div className="modal--loading"></div>
-      <div className="modal--success"></div>
-      <div className="modal--error"></div>
+      <div className="modal__overlay modal__loading"></div>
+      <div className="modal__overlay modal__success"></div>
+      <div className="modal__overlay modal__error"></div>
       <div className="modal__info">
         <h1 className="modal__title">
           Dont hesitate to <span className="highlight">Contact Me!</span>
