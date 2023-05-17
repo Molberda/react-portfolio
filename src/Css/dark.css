@@ -4,13 +4,26 @@
 
 .dark .info__container,
 .dark .projects__row,
-.dark .project__preview--wrapper {
+.dark .project__preview--wrapper{
   box-shadow: 0 0 1.5em #ffffffa4;
 }
 
 .dark h1,
 .dark h3,
 .dark .links__item > button,
-.dark .contrastbtn {
+.dark .contrastbtn,
+.dark .close__link {
   color: #fff !important;
+}
+
+.dark .close__link{
+    border-color: #ffffffa4 !important;
+}
+
+.dark .close__link:hover{
+    border-color: #fff !important;
+}
+
+.dark .modalbottom > .modal__info > .modal__title{
+    color: #242424 !important;
 }

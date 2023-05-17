@@ -19,6 +19,10 @@
     z-index: 10;
 }
 
+.modalON .info__container{
+    box-shadow: none;
+}
+
 .modal{
     height: 100%;
     position: relative;
