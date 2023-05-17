@@ -7,6 +7,10 @@ const Modalbottom = () => {
 
   const form = useRef();
 
+  const loading = document.querySelector('modal--loading')
+  const success = document.querySelector('modal--success')
+  const error = document.querySelector('modal--error')
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,6 +24,9 @@ const Modalbottom = () => {
   
   return (
     <div className="modalbottom">
+      <div className="modal--loading"></div>
+      <div className="modal--success"></div>
+      <div className="modal--error"></div>
       <div className="modal__info">
         <h1 className="modal__title">
           Dont hesitate to <span className="highlight">Contact Me!</span>
