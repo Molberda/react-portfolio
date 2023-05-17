@@ -51,7 +51,7 @@ const Modalbottom = () => {
                 />
               </div>
               <Button type="submit" variant="contained" color="success">
-                <h1>Send!</h1>
+                <h1 className="btn__text">Send!</h1>
               </Button>
             </form>
           </div>

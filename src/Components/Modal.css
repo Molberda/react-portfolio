@@ -212,20 +212,28 @@ input:focus, textarea:focus{
 
 textarea{
     resize: vertical;
-    height: 6em;
+    height: 5.5em;
 }
 
 #modal__form > button {
-    margin: 0 auto;
+    margin: 2em auto 0;
     flex-grow: 1;
     background-color: #43e031;
-    max-height: 6em;
-    max-width: 15em;
-    border: 3px transparent solid;
+    height: 7.2em;
+    max-width: 20em;
+    border: 4px transparent solid;
 }
 
 #modal__form > button:hover{
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.656);
     border-color: white;
+    color: white;
+}
+
+.btn__text{
+    font-size: 2em;
+}
+
+#modal__form > button:hover .btn__text{
     color: white;
 }
