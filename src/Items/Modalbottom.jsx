@@ -8,7 +8,6 @@ const Modalbottom = () => {
 
   const loading = document.querySelector(".modal__loading");
   const success = document.querySelector(".modal__success");
-  const error = document.querySelector(".modal__error");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,8 +26,6 @@ const Modalbottom = () => {
           console.log(result.text);
         },
         (flaw) => {
-          loading.classList.remove("modal__overlay--visible");
-          error.classList += " modal__overlay--visible";
           console.log(flaw.text);
         }
       );
@@ -37,10 +34,12 @@ const Modalbottom = () => {
   return (
     <div className="modalbottom">
       <div className="modal__overlay modal__loading">
-        <div class="custom-loader"></div>
+        <div className="custom-loader"></div>
       </div>
-      <div className="modal__overlay modal__success"></div>
-      <div className="modal__overlay modal__error"></div>
+      <div className="modal__overlay modal__success">
+        <h1>Success!</h1>
+        <h2>Thank you for reaching out</h2>
+      </div>
       <div className="modal__info">
         <h1 className="modal__title">
           Dont hesitate to <span className="highlight">Contact Me!</span>

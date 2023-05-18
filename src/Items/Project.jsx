@@ -31,7 +31,7 @@ const Project = ({ item }) => {
         </figure>
       </Link></>)
        :
-        (<> <div class="custom-loader"></div> </>)}
+        (<> <div className="custom-loader"></div> </>)}
     </div>
   );
 };
