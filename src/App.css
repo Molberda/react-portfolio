@@ -224,6 +224,10 @@ figure {
   overflow: hidden;
 }
 
+.project__wrapper{
+  height: 100%;
+}
+
 /* LOADER CSS */
 
 .custom-loader {
