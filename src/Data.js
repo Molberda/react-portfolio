@@ -2,15 +2,13 @@ export const projects = [
   {
     id: 1,
     title: "Barco",
-    img: "",
-    info: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque lobortis massa, et condimentum dolor congue in. Vivamus tortor diam, vestibulum in luctus quis, commodo ac lectus. Quisque placerat ipsum eu tellus venenatis, sed fermentum sem volutpat. In tempus diam at ultrices pellentesque. Maecenas eu pellentesque diam. Nam sit amet risus leo. Etiam eget orci at est feugiat dictum id ac quam.Vivamus libero nunc, ultrices a leo volutpat, pharetra vulputate augue. Donec varius urna eget risus tincidunt iaculis. Quisque posuere vehicula augue, in facilisis justo blandit at. Duis a dolor vel tortor accumsan volutpat. Etiam eget condimentum ligula. Cras ultrices augue sit amet diam dignissim, sit amet aliquam massa bibendum. Aliquam erat volutpat. Morbi finibus sem a rhoncus placerat.`,
+    info: `This is a website for a Colombian bar hence why its in spanish, it was designed and developed by me. It uses html, css, javascript and React. Some of the elements present on this project are the use of loading states for a better user experience, the items on the menu are renderized using a mock up API so its more dynamic and easier to add or remove new products, it also has working filters so the customers can filter out the type of product they want. Lastly it is fully optimized for desktops and smartphones.`,
     link: "https://barco-react-app.vercel.app",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
   },
   {
     id: 2,
     title: "Delizioso",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -18,7 +16,6 @@ export const projects = [
   {
     id: 3,
     title: "Google",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -26,7 +23,6 @@ export const projects = [
   {
     id: 4,
     title: "We Vape",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -34,7 +30,6 @@ export const projects = [
   {
     id: 5,
     title: "xx",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -42,7 +37,6 @@ export const projects = [
   {
     id: 6,
     title: "xx",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -50,7 +44,6 @@ export const projects = [
   {
     id: 7,
     title: "xx",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -58,7 +51,6 @@ export const projects = [
   {
     id: 8,
     title: "xx",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
@@ -66,7 +58,6 @@ export const projects = [
   {
     id: 9,
     title: "xx",
-    img: "",
     info: "info test",
     link: "test link",
     img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
