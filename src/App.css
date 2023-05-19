@@ -283,8 +283,10 @@ figure {
 }
 
 .project__title {
+  font-size: 3em;
   color: white;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
