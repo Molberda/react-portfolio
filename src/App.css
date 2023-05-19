@@ -217,7 +217,7 @@ figure {
 
 .project__container {
   display: flex;
-  width: 31%;
+  width: 45%;
   aspect-ratio: 1.4 / 1;
   min-height: 12em;
   position: relative;
