@@ -230,6 +230,10 @@ figure {
   height: 100%;
 }
 
+.project__img{
+  object-fit: cover;
+}
+
 /* LOADER CSS */
 
 .custom-loader {
