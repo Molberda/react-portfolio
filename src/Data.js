@@ -1,6 +1,7 @@
 import Barco from './/Assets/Barco-landing.png'
 import Deli from './Assets/Delizioso-landing.png'
 import Google from './Assets/Google-landing.png'
+import Library from './Assets/Library-landing.png'
 
 
 export const projects = [
@@ -30,7 +31,7 @@ export const projects = [
     title: "Library Practice",
     info: "This is a practice project using a mock API to call the books and their info, it uses HTML, CSS, JavaScript and React and has functionalities such as a working cart where the user can store and remove desired books, a loading state for a better user experience and a filter to sort the books in 3 different categories",
     link: "https://library-react-five.vercel.app",
-    img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+    img: Library,
   },
   {
     id: 5,
