@@ -11,7 +11,7 @@ const Project = ({ item }) => {
     image.onload = () => {
       setTimeout(() => {
         setimg(image)
-      },1200)
+      },800)
     }
   });
 

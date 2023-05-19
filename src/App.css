@@ -9,7 +9,7 @@
   transition: all 300ms ease;
 }
 
-#root{
+#root {
   background-color: #efe9e6;
 }
 
@@ -47,12 +47,12 @@ figure {
   display: flex;
 }
 
-.click{
+.click {
   transition: all 500ms ease;
 }
 
-.click:hover{
-  box-shadow: 0 0 .7em rgba(0, 0, 0, 0.712);
+.click:hover {
+  box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.712);
   cursor: pointer;
 }
 
@@ -63,12 +63,12 @@ figure {
   padding: 1em 0;
 }
 
-.row__landing{
+.row__landing {
   align-items: center;
   position: relative;
 }
 
-.info__container{
+.info__container {
   max-width: 13.9em;
   font-size: 1.2em;
   padding: 2em 2em;
@@ -98,20 +98,20 @@ figure {
   margin-bottom: 0.25em;
 }
 
-.links__list{
+.links__list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: .8em;
+  gap: 0.8em;
 }
 
-.link{
-  padding: .2em .5em;
+.link {
+  padding: 0.2em 0.5em;
   background: none;
   border: none;
-  border-radius: .5em;
+  border-radius: 0.5em;
   font-size: 2em;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .footer__list {
@@ -125,7 +125,7 @@ figure {
   border-radius: 4px;
 }
 
-.icon__link{
+.icon__link {
   display: flex;
 }
 
@@ -153,57 +153,57 @@ figure {
   background-color: #00000028;
 }
 
-.whabtn{
-  color: #1d8129 ;
+.whabtn {
+  color: #1d8129;
 }
 
-.mailbtn{
+.mailbtn {
   color: #007acc;
 }
 
-.pdfbtn{
+.pdfbtn {
   color: #db0632;
 }
 
-.linkedbtn{
+.linkedbtn {
   color: #0073b2;
 }
 
-.gitbtn{
+.gitbtn {
   color: #792f9b;
 }
 
-.contrastbtn{
+.contrastbtn {
   color: #242424;
 }
 
-.MuiIconButton-root, .MuiButtonBase-root{
+.MuiIconButton-root,
+.MuiButtonBase-root {
   color: black !important;
-  padding: .4em .7em!important;
-  border-radius: .5em!important;
-  font-weight: 600!important; 
+  padding: 0.4em 0.7em !important;
+  border-radius: 0.5em !important;
+  font-weight: 600 !important;
   text-transform: none !important;
   line-height: 1 !important;
   letter-spacing: 0 !important;
   min-width: 0 !important;
 }
 
-.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
   font-size: 1em !important;
 }
 
 /* icon size */
 
-.css-i4bv87-MuiSvgIcon-root{
+.css-i4bv87-MuiSvgIcon-root {
   font-size: 1.5em !important;
 }
 
 /* nav link size */
 
-.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
   font-size: 1.3em !important;
 }
-
 
 .projects__group {
   display: flex;
@@ -223,14 +223,15 @@ figure {
   position: relative;
   border-radius: 1em;
   border: 2px solid rgb(192, 192, 192);
+  background-color: rgb(204, 204, 204); 
   overflow: hidden;
 }
 
-.project__wrapper{
+.project__wrapper {
   height: 100%;
 }
 
-.project__img{
+.project__img {
   object-fit: cover;
 }
 
@@ -241,22 +242,27 @@ figure {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:2em;
-  height:2em;
-  --c:radial-gradient(circle closest-side,#43e031 90%,#0000);
-  background: 
-    var(--c) 0    0,
-    var(--c) 0    100%,
-    var(--c) 100% 100%;
-  background-size:12px 12px;
+  width: 2em;
+  height: 2em;
+  --c: radial-gradient(circle closest-side, #43e031 90%, #0000);
+  background: var(--c) 0 0, var(--c) 0 100%, var(--c) 100% 100%;
+  background-size: 12px 12px;
   background-repeat: no-repeat;
-  animation:d1 1s infinite linear;
+  animation: d1 1s infinite linear;
 }
 @keyframes d1 {
-    25% {background-position:100% 0   ,0 100%,100% 100%}
-    50% {background-position:100% 0   ,0 0   ,100% 100%}
-    75% {background-position:100% 0   ,0 0   ,0    100%}
-    100%{background-position:100% 100%,0 0   ,0    100%}
+  25% {
+    background-position: 100% 0, 0 100%, 100% 100%;
+  }
+  50% {
+    background-position: 100% 0, 0 0, 100% 100%;
+  }
+  75% {
+    background-position: 100% 0, 0 0, 0 100%;
+  }
+  100% {
+    background-position: 100% 100%, 0 0, 0 100%;
+  }
 }
 
 /* LOADER CSS */
@@ -283,4 +289,3 @@ figure {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
