@@ -10,7 +10,7 @@
 }
 
 #root{
-  background-color: #fbfade;
+  background-color: #efe9e6;
 }
 
 .container {
@@ -221,6 +221,7 @@ figure {
   min-height: 12em;
   position: relative;
   border-radius: 1em;
+  border: 2px solid rgb(192, 192, 192);
   overflow: hidden;
 }
 
