@@ -1,5 +1,6 @@
 import Barco from './/Assets/Barco-landing.png'
 import Deli from './Assets/Delizioso-landing.png'
+import Google from './Assets/Google-landing.png'
 
 
 export const projects = [
@@ -19,10 +20,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Google",
-    info: "info test",
-    link: "test link",
-    img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+    title: "Google Clone",
+    info: "This is a practice project I made using the public Google API, its made using HTML, CSS, JavaScript, MUI, Firebase and React. This project is for learning purposes, not for distribution or gaining profit form it",
+    link: "https://google-clone-xi-five.vercel.app",
+    img: Google,
   },
   {
     id: 4,
