@@ -19,6 +19,7 @@
     max-height: 75vh;
     box-shadow: 0 0 2em;
     border-radius: 2em;
+    aspect-ratio: 1.4 / 1 ;   
     animation: slideIn 800ms;
 }
 
@@ -45,11 +46,15 @@
 
 .project__preview--wrapper{
     position: relative;
-    width: 45em;
+    width: 40em;
     overflow: hidden;
     border-radius: 1em;
     box-shadow: 0 0 2em ;
-    aspect-ratio: 1.4 / 1 ;
+    aspect-ratio: 1.4 / 1 ;   
+}
+
+.preview__img{
+    object-fit: cover;
     
 }
 
