@@ -54,7 +54,7 @@
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     transform: translateY(100%);
-    background-color: #fbfade;
+    background-color: #efe9e6;
 }
 
 .modalON .modaltop, .modalON .modalbottom{
@@ -216,7 +216,7 @@ input, textarea{
     width: 100%;
     padding: .2em;
     outline: none;
-    background-color: #fbfade;
+    background-color: #efe9e6;
     border: lightgray 3px solid;
     border-radius: .5em;
 }
