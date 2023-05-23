@@ -10,3 +10,9 @@
     }
 
 }
+
+@media (orientation: portrait){
+    .row{
+        flex-direction: column;
+    }
+}
