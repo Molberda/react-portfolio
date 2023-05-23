@@ -1,1 +1,5 @@
-@media (max-width: )
+@media (max-width: 1130px) {
+    #root{
+        font-size: 14px;
+    }
+}
