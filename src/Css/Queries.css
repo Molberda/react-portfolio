@@ -1,9 +1,12 @@
 @media (max-width: 1130px) {
     #root{
-        font-size: 14px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #root{
+        font-size: 12px;
     }
 
-    .close__project{
-        top: 2em;
-    }
 }
