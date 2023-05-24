@@ -11,9 +11,11 @@
 
 }
 
-@media (orientation: portrait){
-    .row{
+@media (orientation: portrait) and (max-width: 700px){
+    .row__landing{
         flex-direction: column;
+        justify-content: center;
+        gap: 4em;
     }
     .info__container{
         width: 100%;
@@ -21,8 +23,34 @@
         padding: 1em;
     }
 
+    .links__list{
+        flex-direction: row;
+    }
+
     .projects__group{
         margin: 0;
         justify-content: center;
+        flex-grow: 0;
+    }
+
+    .modaltop > .modal__info{
+        margin: 3em 2em;
+    }
+
+    .modalbottom > .modal__info{
+        margin: 3em 2em;
+    }
+
+    .modal__info--container{
+        flex-direction: column;
+    }
+
+    .modal__text{
+        max-width: none;
+    }
+
+    .modal__languages--container{
+        padding: 0;
+        margin-top: 2em;
     }
 }
