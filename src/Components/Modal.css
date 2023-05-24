@@ -45,7 +45,7 @@
     top: 0;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     background-color: #242424;
 }
 
@@ -53,7 +53,7 @@
     bottom: 0;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
-    transform: translateY(100%);
+    transform: translateY(120%);
     background-color: #efe9e6;
 }
 
