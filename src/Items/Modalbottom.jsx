@@ -67,17 +67,19 @@ const Modalbottom = () => {
                   />
                 </div>
               </div>
-              <div className="form__item">
-                <label htmlFor="message">Message</label>
-                <textarea
-                  placeholder="I really like your work, lets have a chat!"
-                  name="message"
-                  required
-                />
+              <div className="form__organizer">
+                <div className="form__item message">
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    placeholder="I really like your work, lets have a chat!"
+                    name="message"
+                    required
+                  />
+                </div>
+                <Button type="submit" variant="contained" color="success">
+                  <h1 className="btn__text">Send!</h1>
+                </Button>
               </div>
-              <Button type="submit" variant="contained" color="success">
-                <h1 className="btn__text">Send!</h1>
-              </Button>
             </form>
           </div>
         </div>

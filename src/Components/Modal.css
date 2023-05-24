@@ -184,19 +184,18 @@
 
 #modal__form{
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
 .form__organizer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: .5em;
-    width: 35%;
-    margin-right: .5em;
+
 }
 
 .form__item{
-    margin-right: .3em;
     width: 35%;
 }
 
@@ -225,12 +224,16 @@ input:focus, textarea:focus{
     border-color: #43e031;
 }
 
+.form__organizer > .message{
+    width: 70%;
+}
+
 textarea{
     resize: vertical;
     height: 5.5em;
 }
 
-#modal__form > button {
+.form__organizer > button {
     margin: 2em auto 0;
     flex-grow: 1;
     background-color: #43e031;
@@ -239,17 +242,16 @@ textarea{
     border: 4px transparent solid;
 }
 
-#modal__form > button:hover{
+.form__organizer > button:hover{
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.656);
     border-color: white;
-    color: white;
 }
 
 .btn__text{
     font-size: 2em;
 }
 
-#modal__form > button:hover .btn__text{
+.form__organizer > button:hover .btn__text{
     color: white;
 }
 
