@@ -33,6 +33,10 @@
         flex-grow: 0;
     }
 
+    .project__title{
+        font-size: 2em;
+    }
+
     .modaltop > .modal__info{
         margin: 3em 2em;
     }
