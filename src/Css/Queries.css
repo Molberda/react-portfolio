@@ -82,4 +82,7 @@
         max-height: 4.8em;
     }
 
+    .project__preview--wrapper{
+        width: 90%;
+    }
 }
