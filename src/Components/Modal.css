@@ -230,16 +230,16 @@ input:focus, textarea:focus{
 
 textarea{
     resize: vertical;
-    height: 5.5em;
+    height: 5.6em;
 }
 
 .form__organizer > button {
     margin: 2em auto 0;
     flex-grow: 1;
     background-color: #43e031;
-    height: 7.2em;
-    max-width: 20em;
-    border: 4px transparent solid;
+    max-height: 7.4em;
+    max-width: 22em;
+    border: .2em transparent solid;
 }
 
 .form__organizer > button:hover{
