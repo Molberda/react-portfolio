@@ -2,6 +2,11 @@ import React from "react";
 import "../Components/Modal.css";
 import { IconButton } from "@mui/material";
 import { Close } from "@mui/icons-material";
+import css from '../Assets/css3.png'
+import html from '../Assets/html.png'
+import JavaScript from '../Assets/javascript.png'
+import react from '../Assets/react.png'
+import Language from "./Language";
 
 const Modaltop = () => {
   function toggleModal() {
@@ -26,44 +31,16 @@ const Modaltop = () => {
           <div className="modal__languages--container">
             <ul className="languages__list">
               <li className="language__item">
-                <figure className="language__wrapper">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                    alt=""
-                    className="language__img"
-                  />
-                  <p className="language__name">HTML</p>
-                </figure>
+                <Language name='HTML' img={html}/>
               </li>
               <li className="language__item">
-                <figure className="language__wrapper">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                    alt=""
-                    className="language__img"
-                  />
-                  <p className="language__name">CSS</p>
-                </figure>
+                <Language name="CSS" img={css}/>
               </li>
               <li className="language__item">
-                <figure className="language__wrapper">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                    alt=""
-                    className="language__img"
-                  />
-                  <p className="language__name">JavaScript</p>
-                </figure>
+                <Language name="JavaScript" img={JavaScript}/>
               </li>
               <li className="language__item">
-                <figure className="language__wrapper">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                    alt=""
-                    className="language__img"
-                  />
-                  <p className="language__name">React</p>
-                </figure>
+                <Language name="React" img={react}/>
               </li>
             </ul>
           </div>
