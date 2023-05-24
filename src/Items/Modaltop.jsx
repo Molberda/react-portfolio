@@ -32,7 +32,7 @@ const Modaltop = () => {
                     alt=""
                     className="language__img"
                   />
-                  <p className="language__name">css</p>
+                  <p className="language__name">HTML</p>
                 </figure>
               </li>
               <li className="language__item">
@@ -42,7 +42,7 @@ const Modaltop = () => {
                     alt=""
                     className="language__img"
                   />
-                  <p className="language__name">css</p>
+                  <p className="language__name">CSS</p>
                 </figure>
               </li>
               <li className="language__item">
@@ -52,7 +52,7 @@ const Modaltop = () => {
                     alt=""
                     className="language__img"
                   />
-                  <p className="language__name">css</p>
+                  <p className="language__name">JavaScript</p>
                 </figure>
               </li>
               <li className="language__item">
@@ -62,7 +62,7 @@ const Modaltop = () => {
                     alt=""
                     className="language__img"
                   />
-                  <p className="language__name">css</p>
+                  <p className="language__name">React</p>
                 </figure>
               </li>
             </ul>
