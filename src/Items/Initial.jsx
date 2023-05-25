@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Initial = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
+  return (
+    <span className="initial__wrapper">
+      <h1 className="initial">DM</h1>
+    </span>
+  );
+};
 
 export default Initial;
