@@ -292,8 +292,29 @@ figure {
 
 /* CSS FOR THE INITIAL COMPONENT */
 
+.initial__wrapper{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
 .initial{
   position: absolute;
   font-size: 2em;
   font-weight: 700;
+}
+
+.i1{
+left: 85vw;
+top: 10vh;
+}
+
+.i1{
+left: 85vw;
+top: 10vh;
+}
+
+.i1{
+left: 85vw;
+top: 10vh;
 }
