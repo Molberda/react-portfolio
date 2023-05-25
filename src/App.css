@@ -293,6 +293,7 @@ figure {
 /* CSS FOR THE INITIAL COMPONENT */
 
 .initial{
+  position: absolute;
   font-size: 2em;
   font-weight: 700;
 }
