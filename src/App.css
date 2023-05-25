@@ -305,16 +305,31 @@ figure {
 }
 
 .i1{
+  left: 15vw;
+  top: 10vh;
+}
+
+.i4{
+  left: 15vw;
+  top: 50vh;
+}
+
+.i7{
+  left: 15vw;
+  top: 90vh;
+}
+
+.i3{
 left: 85vw;
 top: 10vh;
 }
 
-.i1{
+.i6{
 left: 85vw;
-top: 10vh;
+top: 50vh;
 }
 
-.i1{
+.i9{
 left: 85vw;
-top: 10vh;
+top: 90vh;
 }
