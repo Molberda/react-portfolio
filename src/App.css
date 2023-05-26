@@ -63,7 +63,7 @@ figure {
   z-index: 1;
 }
 
-.container__landing{
+.container__landing {
   display: flex;
   align-items: center;
 }
@@ -72,7 +72,6 @@ figure {
   align-items: center;
   position: relative;
 }
-
 
 .info__container,
 .info__personal {
@@ -89,6 +88,7 @@ figure {
   border-radius: 1em;
   box-shadow: 0 0 2em black;
   gap: 3em;
+  background-color: #efe9e6;
 }
 
 .info__personal {
@@ -207,8 +207,8 @@ figure {
 
 /* nav link size */
 
-.css-1knaqv7-MuiButtonBase-root-MuiButton-root {
-  font-size: 1.3em !important;
+.link__title {
+  font-size: 2em;
 }
 
 .projects__group {
