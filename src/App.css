@@ -302,15 +302,16 @@ figure {
 
 .initial__wrapper {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 0;
 }
 
 .initial {
   position: absolute;
-  font-size: 6em;
+  font-size: 3em;
   font-weight: 700;
 }
 
