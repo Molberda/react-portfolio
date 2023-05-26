@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 const Initial = () => {
   return (
     <div className="initial__wrapper">
