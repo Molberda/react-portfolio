@@ -10,7 +10,17 @@ import "./Css/Queries.css";
 function App() {
 
   function dynamicInitial(e){
-    console.log('testing')
+    const scalefactor = 1 / 10
+    const initials = document.querySelectorAll('.initial')
+    const x = e.clientX * scalefactor
+    const y = e.clientY * scalefactor
+    const rot = e.clientX / 5
+
+    for (let i = 0; i < initials.length; ++i){
+      const isOdd = i % 2 !== 0
+      const boolInt = isOdd ? -1: 1
+      initials[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${rot}deg)`   
+  }
   }
 
   return (
