@@ -307,11 +307,12 @@ figure {
   left: 0;
   right: 0;
   z-index: 0;
+  overflow: hidden;
 }
 
 .initial {
   position: absolute;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
 }
 
