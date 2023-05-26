@@ -61,9 +61,23 @@ figure {
   padding: 1em 0;
 }
 
+.container__landing{
+  display: flex;
+  align-items: center;
+}
+
 .row__landing {
   align-items: center;
   position: relative;
+}
+
+
+.info__container,
+.info__personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .info__container {
@@ -73,14 +87,6 @@ figure {
   border-radius: 1em;
   box-shadow: 0 0 2em black;
   gap: 3em;
-}
-
-.info__container,
-.info__personal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .info__personal {
@@ -221,7 +227,7 @@ figure {
   position: relative;
   border-radius: 1em;
   border: 2px solid rgb(192, 192, 192);
-  background-color: rgb(204, 204, 204); 
+  background-color: rgb(204, 204, 204);
   overflow: hidden;
 }
 
@@ -292,44 +298,59 @@ figure {
 
 /* CSS FOR THE INITIAL COMPONENT */
 
-.initial__wrapper{
+.initial__wrapper {
   position: absolute;
   width: 100vw;
   height: 100vh;
 }
 
-.initial{
+.initial {
   position: absolute;
-  font-size: 2em;
+  font-size: 6em;
   font-weight: 700;
 }
 
-.i1{
+.i1 {
   left: 15vw;
   top: 10vh;
 }
 
-.i4{
-  left: 15vw;
+.i4 {
+  left: 25vw;
   top: 50vh;
 }
 
-.i7{
+.i7 {
   left: 15vw;
   top: 90vh;
 }
 
-.i3{
-left: 85vw;
-top: 10vh;
+.i2 {
+  left: 50vw;
+  top: 10vh;
 }
 
-.i6{
-left: 85vw;
-top: 50vh;
+.i5 {
+  left: 50vw;
+  top: 50vh;
 }
 
-.i9{
-left: 85vw;
-top: 90vh;
+.i8 {
+  left: 50vw;
+  top: 90vh;
+}
+
+.i3 {
+  left: 85vw;
+  top: 10vh;
+}
+
+.i6 {
+  left: 85vw;
+  top: 50vh;
+}
+
+.i9 {
+  left: 85vw;
+  top: 90vh;
 }
