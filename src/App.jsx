@@ -10,11 +10,11 @@ import './Css/Queries.css'
 function App() {
   return (
     <Router>
-      <Initial/>
       <Routes>
         <Route path="/" element={<Landing/>}/>
         <Route path="/project/:id" element={<Projectinfo projects={projects}/>}/>
       </Routes>
+      <Initial/>
     </Router>
   );
 }

@@ -59,6 +59,8 @@ figure {
 #Landing {
   height: 100vh;
   padding: 1em 0;
+  position: relative;
+  z-index: 1;
 }
 
 .container__landing{
@@ -302,6 +304,8 @@ figure {
   position: absolute;
   width: 100vw;
   height: 100vh;
+  top: 0;
+  z-index: 0;
 }
 
 .initial {
@@ -316,7 +320,7 @@ figure {
 }
 
 .i4 {
-  left: 25vw;
+  left: 15vw;
   top: 50vh;
 }
 
