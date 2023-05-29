@@ -22,6 +22,7 @@
     max-height: 75vh;
     box-shadow: 0 0 2em;
     border-radius: 2em;
+    background-color: #efe9e6;
     aspect-ratio: 1.4 / 1 ;   
     animation: slideIn 800ms;
 }
