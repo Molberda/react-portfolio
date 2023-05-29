@@ -85,4 +85,8 @@
     .project__preview--wrapper{
         width: 90%;
     }
+
+    .initial__wrapper{
+        display: none;
+    }
 }
