@@ -11,7 +11,7 @@
 
 }
 
-@media (orientation: portrait) and (max-width: 600px){
+@media only screen and (orientation: portrait){
     .row__landing{
         flex-direction: column;
         justify-content: center;
@@ -19,6 +19,7 @@
     }
     .info__container{
         width: 100%;
+        max-width: 30em;
         gap: 1em;
         padding: 1em;
     }
