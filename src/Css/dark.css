@@ -7,6 +7,7 @@
 .dark .projects__row,
 .dark .project__preview--wrapper,
 .dark.modalON .modal {
+  background-color: #242424;
   box-shadow: 0 0 1.5em #ffffffa4;
   transition: all 300ms ease;
 }
