@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from '../Assets/foto__david.jpeg'
 
 const Personal = () => {
   return (
