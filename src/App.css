@@ -112,12 +112,7 @@ figure {
 }
 
 .link {
-  padding: 0.2em 0.5em;
   background: none;
-  border: none;
-  border-radius: 0.5em;
-  font-size: 2em;
-  font-weight: 600;
 }
 
 .footer__list {
@@ -208,7 +203,7 @@ figure {
 /* nav link size */
 
 .link__title {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .projects__group {
