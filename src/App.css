@@ -83,6 +83,7 @@ figure {
 
 .info__container {
   width: 30%;
+  max-width: 14em;
   font-size: 1.2em;
   padding: 2em;
   border-radius: 1em;

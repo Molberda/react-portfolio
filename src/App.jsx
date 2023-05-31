@@ -10,7 +10,7 @@ import "./Css/Queries.css";
 function App() {
 
   function dynamicInitial(e){
-    const scalefactor = 1 / 10
+    const scalefactor = 1 / 15
     const initials = document.querySelectorAll('.initial')
     const x = e.clientX * scalefactor
     const y = e.clientY * scalefactor
