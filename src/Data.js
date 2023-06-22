@@ -2,6 +2,7 @@ import Barco from './/Assets/Barco-landing.png'
 import Deli from './Assets/Delizioso-landing.png'
 import Google from './Assets/Google-landing.png'
 import Library from './Assets/Library-landing.png'
+import Transamerica from './Assets/Transamerica.png'
 
 
 export const projects = [
@@ -38,7 +39,7 @@ export const projects = [
     title: "Life Insurance Portfolio",
     info: "This is a practice project made specifically for a life insurance agent that wishes to display all of the different products they have to offer. It uses HTML, CSS, JavaScript, React and MUI, it renders each product using a mock up API to make the code simpler and easier to expand in the future if needed, it also has a filter to browse the different kind of products offered, additionally it uses a nav bar with a expand down mechanism and is optimized for every screen",
     link: "test link",
-    img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+    img: Transamerica,
   },
   // {
   //   id: 6,
