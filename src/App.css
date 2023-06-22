@@ -227,7 +227,7 @@ figure {
 
 .project__container {
   display: flex;
-  width: 45%;
+  width: calc(((100% - 2em) / 3));
   aspect-ratio: 1.4 / 1;
   min-height: 12em;
   position: relative;
