@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Life Insurance Portfolio",
+    title: "Insurance Portfolio",
     info: "This is a practice project made specifically for a life insurance agent that wishes to display all of the different products they have to offer. It uses HTML, CSS, JavaScript, React and MUI, it renders each product using a mock up API to make the code simpler and easier to expand in the future if needed, it also has a filter to browse the different kind of products offered, additionally it uses a nav bar with a expand down mechanism and is optimized for every screen",
     link: "https://transamerica-test.vercel.app",
     img: Transamerica,
