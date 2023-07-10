@@ -70,6 +70,7 @@ figure {
 
 .row__landing {
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
@@ -221,13 +222,13 @@ figure {
   justify-content: flex-start;
   gap: 1em;
   flex-wrap: wrap;
-  flex-grow: 1;
+  flex: .75;
   margin-left: 3em;
 }
 
 .project__container {
   display: flex;
-  width: calc(((100% - 2em) / 3));
+  width: calc(((100% - 1em) / 2));
   aspect-ratio: 1.4 / 1;
   min-height: 12em;
   position: relative;
