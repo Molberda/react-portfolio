@@ -3,6 +3,7 @@ import Deli from './Assets/Delizioso-landing.png'
 import Google from './Assets/Google-landing.png'
 import Library from './Assets/Library-landing.png'
 import Transamerica from './Assets/Transamerica.png'
+import Gmail from './Assets/gmailProject.png'
 
 
 export const projects = [
@@ -46,7 +47,7 @@ export const projects = [
     title: "Gmail Clone",
     info: "This is a prectice project made exclusively for practice and it mimics the gmail website, it uses HTML, CSS, JavaScript, React, Redux, MUI and FireBase to deliver a more user friendly experience. It uses the database in firebase to store user generated data into it and then render it in the form of new emails. It has a compose element that lets each user create and send a new email to the database and it also counts with firebase authentication  ",
     link: "https://clone-edd5b.web.app",
-    img: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+    img: Gmail,
   },
   // {
   //   id: 7,
