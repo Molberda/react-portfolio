@@ -22,7 +22,7 @@
     .row__landing{
         flex-direction: column;
         justify-content: center;
-        gap: 4em;
+        gap: 2.5em;
     }
     .info__container{
         width: 100%;
@@ -47,6 +47,10 @@
 
     .project__title{
         font-size: 2em;
+    }
+
+    .modalON .row__landing{
+        opacity: 0;
     }
 
     .modaltop > .modal__info{
