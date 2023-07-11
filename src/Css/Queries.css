@@ -11,6 +11,12 @@
 
 }
 
+@media only screen and (max-width: 750px){
+    .footer__list{
+        gap: .5em;
+    }
+}
+
 @media only screen and (orientation: portrait){
     .row__landing{
         flex-direction: column;
