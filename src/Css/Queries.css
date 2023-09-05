@@ -45,6 +45,10 @@
         flex-grow: 0;
     }
 
+    .project__container{
+        width: calc((100% - 2em) / 2);
+    }
+
     .project__title{
         font-size: 2em;
     }
