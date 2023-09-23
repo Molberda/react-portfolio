@@ -54,7 +54,7 @@ export const projects = [
     id: 7,
     title: "MetroCar",
     info: "This is a project developed for a car rental startup. It uses HMLT, CSS, JavaScript, React and MUI for the user to have the best experience. It has different elements such as maps integration and image slideshows that were developed from scratch, it also has a translate functionality that allows the user to experience the app equally in english and spanish as the company targets a international audience. It also has features such as a form that collects the data from the user and sends it directly to the company's email or more subtle features such as highlighting a nav link when its active. Finally its fully functional in all screens (Small phones, Regular Phones, Tablets, Laptops & Desktops). ",
-    // link: "https://metrocar.com.co",
+    link: "https://metrocar.com.co",
     img: MetroCar,
   },
   // {
